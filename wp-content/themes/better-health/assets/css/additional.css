@@ -1,0 +1,172 @@
+.site-branding .site-title a {
+    color: #19c66d;
+		font-size: 30px;
+}
+.make-booking .makebooking {
+    background: #0b944e !important;
+}
+#main-slide .carousel-control i {
+    background-color: rgba(25, 198, 109, 0.72);
+}
+#main-slide .carousel-control i:hover {
+    background: #19c66d;
+}
+.btn-primary:hover {
+	background-color: #19c66d;
+}
+p {
+    line-height: 20px;
+    /* letter-spacing: 0.5px; */
+}
+.site-branding{
+	padding: 10px 0px 0px 0px;
+}
+.main-menu {
+    padding: 5px 0;
+    background: #8edcb44a;
+}
+.navbar-menu {
+    padding: 1px 0;
+}
+.dropdown-menu > li > a {
+    background: #19c66d;
+    border-bottom: 1px solid #19c66d;
+}
+li.current-menu-parent a,li.current-menu-item a {
+    color: #0b944e !important;
+}
+.dropdown-menu {
+	  top: 55px;
+}
+#section1 .col-md-3.col-sm-6:nth-child(odd):hover {
+	background: #07c375;
+}
+#section1 .col-md-3.col-sm-6:nth-child(even):hover {
+    background: #0db56f;
+}
+.section-2-box-right a.readmore:hover{
+    color: #fff;
+	background-color: #05ab56;
+}
+.btn-primary:hover {
+    background-color: #05ab56;
+    border-color: #05ab56;
+}
+.line-middle {
+    background: #19c66d;
+}
+.line-heading .line-left, .line-heading .line-right {
+    border-top: 1px dashed #19c66d;
+}
+.line-middle:before, .line-middle:after {
+	background: #19c66d;
+}
+.section-4 .section li.left {
+    color: #19c66d;
+}
+a.readmore:hover {
+    color: #fff;
+	background: #05ab56;
+}
+.testimonial-wrapper {
+    background-color: rgba(25, 198, 109, 0.56) !important;
+}
+.bh-testimonial.owl-carousel .owl-dots .owl-dot.active span {
+    background: #19c66d;
+}
+.bh-testimonial.owl-carousel .owl-dots .owl-dot span {
+	background: #fff;
+}
+p.search-btn {
+    border-left: 1px solid #07a051;
+    border-right: 1px solid #07a051;
+    padding: 10px 10px;
+}
+.inner-title {
+    background: #19c66d;
+    padding: 10px 0 15px 0px;
+}
+.dropdown-menu > li > a {
+    background: #44ca84;
+    border-bottom: 1px solid #44ca84;
+	color: #fff !important;
+}
+.dropdown-menu > li > a:hover {
+    background: #65d49b;
+    border-bottom: 1px solid #65d49b;
+}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+	color: #fff !important;
+	background-color: #0b944e;
+}
+div.wpcf7 {
+    margin: 20px 0;
+}
+.section16 {
+    padding: 50px 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: 0.1px;
+    color: #19c66d;
+}
+.section16 input[type="text"] {
+    border-radius: 5px;
+    height: 40px;
+    margin: 5px 0px;
+}
+.section16 input[type="email"] {
+	 border-radius: 5px;
+    height: 40px;
+		margin: 5px 0px;
+}
+.section16 textarea {
+    border-radius: 5px;
+    padding: 15px 5px;
+		margin: 5px 0px;
+}
+.blog-search-field {
+    padding: 10px 15px;
+    margin: 5px 0 0 0;
+}
+#secondary li {
+    margin-bottom: 35px;
+}
+#secondary .widget {
+	padding: 10px 15px;
+}
+#secondary .widget-title {
+    border-bottom: 2px solid #19c66d;
+	padding: 0 0 5px 0;
+}
+.wpcf7-form label {
+    font-size: 15px;
+}
+.portfolioFilter a.current {
+    background: #19c66d;
+}
+.portfolioFilter a {
+	color: #19c66d;
+	border: 1px solid #19c66d;
+}
+.portfolioFilter a:hover {
+    background: #19c66d;
+}
+.overlay i {
+	background: #19c66d none repeat scroll 0 0;
+}
+.navbar-fixed-top {
+	padding: 5px 0 !important;
+}
+.comment-form .form-submit input {
+    background-color: #19c66d;
+}
+.section-margine .nav-links .nav-previous a:hover, .section-margine .nav-links .nav-next a:hover {
+    background: #0baf5b;
+    color: #fff;
+}
+.post blockquote {
+	border-left: 5px solid #19c66d;
+}
+.section-2-box-right {
+    padding: 10px 0 100px 0;
+}
