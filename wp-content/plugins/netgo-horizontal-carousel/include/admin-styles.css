@@ -1,0 +1,24 @@
+/*======  admin css =====*/
+
+.netgo-carousel-add form {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e5e5e5;
+    border-radius: 1px;
+    padding: 0 15px;
+}
+.form-wrap.netgo-carousel-add label {
+    display: block;
+    font-size: 14px;
+    margin-top: 15px;
+    padding: 2px;
+}
+.netgo-carousel-add form input[type="text"], .netgo-carousel-add form select {
+    width: 20%;
+}
+ .wp-core-ui .netgo-carousel-add p  .button{
+    box-shadow:0 1px 0 #fff inset, 2px 1px 2px rgba(0, 0, 0, 0.08);
+ }
+ 
+#toplevel_page_netgo-horizontal-carousel{ display:none;} 
+
+/*======  admin css =====*/

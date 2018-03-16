@@ -68,7 +68,7 @@ final class Better_Health_Customize {
 		$manager->register_section_type( 'Better_Health_Customize_Section_Pro' );
 
 		// Register sections.
-		$manager->add_section(
+/*		$manager->add_section(
 			new Better_Health_Customize_Section_Pro(
 				$manager,
 				'better-health',
@@ -79,7 +79,7 @@ final class Better_Health_Customize {
 					'priority' => 0
 				)
 			)
-		);
+		);*/
 	}
 
 	/**
