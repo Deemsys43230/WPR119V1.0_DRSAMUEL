@@ -12,7 +12,7 @@ $better_health_designlayout = get_post_meta(get_the_ID(), 'better_health_sidebar
 get_header();
 ?>
 <section id="inner-title" class="inner-title"  <?php echo $header_style; ?>>
-    <div class="container">
+    <!-- <div class="container">
         <div class="row">
             <div class="col-md-7">
                 <h2><?php the_title(); ?></h2>
@@ -27,7 +27,7 @@ get_header();
                 </div>
             <?php } ?>
         </div>
-    </div>
+    </div> -->
 </section>
 <section id="section14" class="section-margine blog-list">
     <div class="container">

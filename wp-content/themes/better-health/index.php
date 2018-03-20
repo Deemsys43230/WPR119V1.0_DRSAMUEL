@@ -22,7 +22,7 @@ get_header();
 {
 ?>
     <section id="inner-title" class="inner-title" <?php echo $header_style; ?>>
-        <div class="container">
+        <!-- <div class="container">
             <div class="row">
                 <div class="col-md-7">
                     <h2><?php echo esc_html($blog_page_title); ?></h2>
@@ -37,7 +37,7 @@ get_header();
                     </div>
                 <?php } ?>
             </div>
-        </div>
+        </div> -->
     </section>
 <?php } ?>    
     <section id="section14" class="section-margine">
