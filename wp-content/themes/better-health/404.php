@@ -17,7 +17,7 @@ $better_health_breadcrump_option = better_health_get_option('better_health_bread
 if ($better_health_breadcrump_option == "enable") {
 ?>
     <section id="inner-title" class="inner-title">
-        <div class="container">
+        <!-- <div class="container">
             <div class="row">
                 <div class="col-md-8"><h2><?php esc_html_e('404 Not Found', 'better-health'); ?></h2></div>
                   <div class="col-md-4">
@@ -25,12 +25,12 @@ if ($better_health_breadcrump_option == "enable") {
                             <?php 
                              // Function to display breadcrump
                              breadcrumb_trail(); 
-                            ?>
-                        </div><!-- .breadcrumbs -->
-                    </div><!-- .col-md-4-->
+                            ?> -->
+                        <!-- </div> --><!-- .breadcrumbs -->
+                    <!-- </div> --><!-- .col-md-4-->
                 
-            </div><!-- .row-->
-        </div><!-- .container-->
+            <!-- </div> --><!-- .row-->
+       <!--  </div> --><!-- .container-->
     </section><!-- .inner-title-->
 <?php } ?>    
     <section id="section19" class="section19">
