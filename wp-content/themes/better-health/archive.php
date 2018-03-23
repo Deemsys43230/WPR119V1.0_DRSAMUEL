@@ -21,22 +21,22 @@ $better_health_designlayout = better_health_get_option('better_health_sidebar_la
 ?>
 
     <section id="inner-title" class="inner-title">
-        <div class="container">
+       <!--  <div class="container">
             <div class="row">
                 <div class="col-md-7">
                     <h2> <?php the_archive_title('<h2 class="page-title">', '</h2>') ?></h2>
-                </div><!--.col-md-7 -->
+                </div>
                     <div class="col-md-5">
                         <div class="breadcrumbs">
                             <?php 
                              // Function to display breadcrump
                               breadcrumb_trail(); 
                             ?>
-                        </div><!--.breadcrumbs -->
-                    </div><!--.col-md-5 -->
-            </div><!--.row -->
-        </div><!--.container -->
-    </section><!--.inner-title -->
+                        </div> --><!--.breadcrumbs -->
+                    <!-- </div> --><!--.col-md-5 -->
+            <!-- </div> --><!--.row -->
+      <!--   </div> --><!--.container -->
+   <!--  </section> --><!--.inner-title -->
   <?php } ?>
     <section id="section14" class="section-margine blog-list">
         <div class="container">
