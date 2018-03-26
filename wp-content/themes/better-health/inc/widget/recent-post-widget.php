@@ -87,7 +87,7 @@ if (!class_exists('Better_Health_Recent_Post_Widget')) {
                                 while ($home_recent_post_section_query->have_posts()) {
                                     $home_recent_post_section_query->the_post();
                                     ?>
-                                    <div class="col-md-4 col-lg-4">
+                                    <div class="col-md-4 col-lg-4 col-sm-4">
                                         <div class="section-14-box wow fadeInUp <?php if ( !has_post_thumbnail() ) {
                                             echo "no-image";
                                         } ?> " data-wow-delay="<?php echo esc_attr($i); ?>s">
