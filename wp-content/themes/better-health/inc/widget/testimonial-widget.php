@@ -8,6 +8,8 @@ if (!class_exists('Better_Health_Testimonial_Widget')) {
 
             $defaults = array(
                 'cat_id' => 0,
+                'title' => esc_html__('Testimonial','better-health'),
+                'sub-title' => '',
                 'bg_image' => '',
             );
             return $defaults;
@@ -28,6 +30,8 @@ if (!class_exists('Better_Health_Testimonial_Widget')) {
             if (!empty($instance)) {
                 $instance = wp_parse_args((array )$instance, $this->defaults());
                 $catid = absint($instance['cat_id']);
+                $title = apply_filters('widget_title', !empty($instance['title']) ? esc_html( $instance['title']): '', $instance, $this->id_base);
+                $subtitle =  esc_html( $instance['sub-title'] );
                 $bgimage = esc_url($instance['bg_image']);
                 $category = get_category( $catid );
                 $count = $category->category_count;
@@ -39,8 +43,26 @@ if (!class_exists('Better_Health_Testimonial_Widget')) {
 
                     <!-- NEW -->
                     <!--start testimonial Section-->
-                    <section class="section-margine" style=" <?php if(!empty($bgimage)) { ?>background: url(<?php echo($bgimage); ?>) no-repeat center;<?php } else { ?> background: rgba(0, 65, 65, 1);   <?php } ?>">
+                    <!-- Heading for testiomonials Section -->
+                    <header class="title-head">
+                        <?php
+                        if (!empty( $title )) {
+                            ?>
+                            <h2><?php echo $args['before_title'] . $title . $args['after_title']; ?></h2>
+                        <?php }
+                        if (!empty( $subtitle )) {
+                            ?>
+                            <p><?php echo $subtitle; ?></p>
+                        <?php } ?>
+                      <div class="line-heading">
+                        <span class="line-left"></span>
+                        <span class="line-middle">+</span>
+                        <span class="line-right"></span>
+                      </div>
+                    </header>
+                    <section class="section-testimonials-margine" style=" <?php if(!empty($bgimage)) { ?>background: url(<?php echo($bgimage); ?>) no-repeat center;<?php } else { ?> background: rgba(0, 65, 65, 1);   <?php } ?>">
                         <div class="container">
+
                             <div class="row">
                                 <div class="col-md-12">
                                   <div class="bh-testimonial owl-carousel">
@@ -103,6 +125,8 @@ if (!class_exists('Better_Health_Testimonial_Widget')) {
         {
             $instance = $old_instance;
             $instance['cat_id'] = (isset($new_instance['cat_id'])) ? absint($new_instance['cat_id']) : '';
+            $instance['title'] = sanitize_text_field( $new_instance['title'] );
+            $instance['sub-title'] = sanitize_text_field( $new_instance['sub-title'] );
             $instance['bg_image'] = esc_url_raw($new_instance['bg_image']);
             return $instance;
         }
@@ -111,8 +135,24 @@ if (!class_exists('Better_Health_Testimonial_Widget')) {
         {
             $instance = wp_parse_args((array )$instance, $this->defaults());
             $catid = absint($instance['cat_id']);
+            $title = esc_attr( $instance['title'] );
+            $subtitle =  esc_attr( $instance['sub-title'] );
             $bgimage = esc_url($instance['bg_image']);
             ?>
+
+            <p>
+                <label for="<?php echo esc_attr($this->get_field_id('title')); ?>">
+                    <?php esc_html_e('Title', 'better-health'); ?>
+                </label><br/>
+                <input type="text" name="<?php echo esc_attr( $this->get_field_name('title') ); ?>" class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'title') ); ?>" value="<?php echo $title; ?>">
+            </p>
+
+            <p>
+                <label for="<?php echo esc_attr( $this->get_field_id('sub-title') ); ?>">
+                    <?php esc_html_e( 'Sub Title', 'better-health'); ?>
+                </label><br/>
+                <input type="text" name="<?php echo esc_attr($this->get_field_name('sub-title')); ?>" class="widefat" id="<?php echo esc_attr($this->get_field_id('sub-title')); ?>" value="<?php echo $subtitle; ?>">
+            </p>
 
             <p>
                 <label for="<?php echo esc_attr($this->get_field_id('cat_id')); ?>"><?php esc_html_e('Select Category', 'better-health'); ?></label><br/>

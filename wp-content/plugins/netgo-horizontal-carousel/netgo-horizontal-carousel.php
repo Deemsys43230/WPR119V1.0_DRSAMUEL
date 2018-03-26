@@ -197,7 +197,7 @@ font-size: 22px; }
 </style>";
 	
 	    $cros = $cros . '<div class="netgo-main-carousel">';
-	    $cros = $cros . '<div id="netgo-carousel-heading">Certification Logo</div>';
+	    $cros = $cros . '<div id="netgo-carousel-heading">Certification Logo <div class="line-heading"> <span class="line-left"></span> <span class="line-middle">+</span> <span class="line-right"></span>  </div></div>';
 		$cros = $cros . '<div id="netgo-carousel-slider1">';
 		
 		 if($cros_controls== 'true'){

@@ -154,7 +154,7 @@ function better_health_widgets_init()
 
 
     register_sidebar(array(
-        'name' => esc_html__('Footer 4', 'better-health'),
+        'name' => esc_html__('Footer Menu', 'better-health'),
         'id' => 'footer-4',
         'description' => esc_html__('Add widgets here.', 'better-health'),
         'before_widget' => '<section id="%1$s" class="widget %2$s">',
