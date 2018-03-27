@@ -66,18 +66,18 @@ $contact_subtitle = better_health_get_option('better_health_contact_subtitle_tex
       <div class="container">
         <div class="row">
           <div class="section-contact-full clearfix">
-              <div class="col-xs-12 col-sm-3 col-md-2 hidden-xs">
+              <div class="col-xs-12 col-sm-2 col-md-2 hidden-xs">
                   <div class="contact-link-img">
                      <img src="<?php echo esc_url($image) ?>" alt="">
                   </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="col-xs-12 col-sm-8 col-md-7">
                   <div class="contact-link-desc">
                      <h5><?php echo esc_html($contact_title); ?></h5>
                      <span><?php echo esc_html($contact_subtitle); ?></span>
                   </div>
               </div>
-            <div class="col-xs-12 col-sm-3 col-md-2">
+            <div class="col-xs-12 col-sm-2 col-md-3">
                 <div class="contact-link-btn">
                      <a href="<?php echo home_url() ?>/contact/" class="contact-us"><?php echo esc_html($button_text); ?></a>
                 </div>
