@@ -20,7 +20,7 @@ if( ($better_health_hide_breadcrump_option== 1 && is_front_page()) || !is_front_
 {
 ?>
    <section id="inner-title" class="inner-title resposive-background-img" <?php echo $header_style; ?>>
-        <!-- <div class="container">
+        <div class="container">
             <div class="row">
                 <div class="col-md-8"><h2><?php the_title(); ?></h2></div>
                 <?php
@@ -33,7 +33,7 @@ if( ($better_health_hide_breadcrump_option== 1 && is_front_page()) || !is_front_
                     </div>
                 <?php } ?>
             </div>
-        </div> -->
+        </div>
     </section> 
  <?php } ?>   
     <section id="section16" class="section16">

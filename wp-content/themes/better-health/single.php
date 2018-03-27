@@ -11,8 +11,8 @@ $better_health_breadcrump_option = better_health_get_option('better_health_bread
 $better_health_designlayout = get_post_meta(get_the_ID(), 'better_health_sidebar_layout', true  );
 get_header();
 ?>
-<section id="inner-title" class="inner-title"  <?php echo $header_style; ?>>
-    <!-- <div class="container">
+<section id="inner-title" class="inner-title resposive-background-img"  <?php echo $header_style; ?>>
+     <div class="container">
         <div class="row">
             <div class="col-md-7">
                 <h2><?php the_title(); ?></h2>
@@ -27,7 +27,7 @@ get_header();
                 </div>
             <?php } ?>
         </div>
-    </div> -->
+    </div> 
 </section>
 <section id="section14" class="section-margine blog-list">
     <div class="container">
@@ -35,7 +35,7 @@ get_header();
             <div class="col-sm-<?php if ($better_health_designlayout == 'no-sidebar') {
                 echo "12";
             } else {
-                echo "12";
+                echo "9";
             } ?> col-md-<?php if ($better_health_designlayout == 'no-sidebar') {
                 echo "12";
             } else {
@@ -61,7 +61,7 @@ get_header();
                 ?>
             </div>
             <?php if ( $better_health_designlayout != 'no-sidebar') { ?>
-                <div class="col-xs-12 col-sm-12 col-md-3">
+                <div class="col-xs-12 col-sm-3 col-md-3">
                     <?php get_sidebar(); ?>
                 </div>
             <?php } ?>

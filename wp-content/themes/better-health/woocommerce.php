@@ -31,7 +31,7 @@ get_header();
                     </div>
                 <?php } ?>
             </div>
-        </div>
+        </div> 
     </section>
     <section id="section16" class="section16">
         <div class="container">

@@ -20,8 +20,8 @@ $better_health_designlayout = better_health_get_option('better_health_sidebar_la
  if ($better_health_breadcrump_option == "enable") {
 ?>
 
-    <section id="inner-title" class="inner-title">
-       <!--  <div class="container">
+    <section id="inner-title" class="inner-title resposive-background-img">
+        <div class="container">
             <div class="row">
                 <div class="col-md-7">
                     <h2> <?php the_archive_title('<h2 class="page-title">', '</h2>') ?></h2>
@@ -32,11 +32,11 @@ $better_health_designlayout = better_health_get_option('better_health_sidebar_la
                              // Function to display breadcrump
                               breadcrumb_trail(); 
                             ?>
-                        </div> --><!--.breadcrumbs -->
-                    <!-- </div> --><!--.col-md-5 -->
-            <!-- </div> --><!--.row -->
-      <!--   </div> --><!--.container -->
-   <!--  </section> --><!--.inner-title -->
+                        </div> <!--.breadcrumbs -->
+                    </div> <!--.col-md-5 -->
+            </div> <!-- .row -->
+      </div>  <!--.container -->
+    </section> <!--.inner-title
   <?php } ?>
     <section id="section14" class="section-margine blog-list">
         <div class="container">
@@ -44,7 +44,7 @@ $better_health_designlayout = better_health_get_option('better_health_sidebar_la
                 <div class="col-sm-<?php if ($better_health_designlayout == 'no-sidebar') {
                     echo "12";
                 } else {
-                    echo "12";
+                    echo "9";
                 } ?> col-md-<?php if ($better_health_designlayout == 'no-sidebar') {
                     echo "12";
                 } else {
@@ -75,7 +75,7 @@ $better_health_designlayout = better_health_get_option('better_health_sidebar_la
 
                 </div><!--.left-block -->
                 <?php if ($better_health_designlayout != 'no-sidebar') { ?>
-                    <div class="col-xs-12 col-sm-12 col-md-3">
+                    <div class="col-xs-12 col-sm-3 col-md-3">
                         <?php 
                          // Function to display search form
                           get_sidebar(); ?>
