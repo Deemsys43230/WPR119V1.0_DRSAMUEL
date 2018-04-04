@@ -42,7 +42,7 @@ if( ($better_health_hide_breadcrump_option== 1 && is_front_page()) || !is_front_
                 <div class="col-sm-<?php if ($better_health_designlayout == 'no-sidebar') {
                     echo "12";
                 } else {
-                    echo "9";
+                    echo "12";
                 } ?> col-md-<?php if ($better_health_designlayout == 'no-sidebar') {
                     echo "12";
                 } else {
@@ -62,7 +62,7 @@ if( ($better_health_hide_breadcrump_option== 1 && is_front_page()) || !is_front_
                     ?>
                 </div><!-- div -->
                 <?php if ($better_health_designlayout != 'no-sidebar') { ?>
-                    <div class="col-xs-12 col-sm-3 col-md-3">
+                    <div class="col-xs-12 col-sm-12 col-md-3">
                         <?php get_sidebar(); ?>
                     </div>
                 <?php } ?>

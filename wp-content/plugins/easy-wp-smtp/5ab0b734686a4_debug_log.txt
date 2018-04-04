@@ -1,0 +1,586 @@
+Easy WP SMTP debug log file
+
+SMTP ERROR: Failed to connect to server:  (0)SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/TroubleshootingSMTP ERROR: Failed to connect to server:  (0)SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/TroubleshootingSMTP ERROR: Failed to connect to server:  (0)SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/TroubleshootingSMTP ERROR: Failed to connect to server:  (0)SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/TroubleshootingSMTP ERROR: Failed to connect to server:  (0)SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/TroubleshootingSMTP ERROR: Failed to connect to server:  (0)SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/TroubleshootingSMTP ERROR: Failed to connect to server:  (0)SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/TroubleshootingSMTP ERROR: Failed to connect to server:  (0)SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/TroubleshootingSMTP ERROR: Failed to connect to server:  (0)SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/TroubleshootingSMTP ERROR: Failed to connect to server:  (0)SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/TroubleshootingSMTP ERROR: Failed to connect to server:  (0)SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/TroubleshootingSMTP ERROR: Failed to connect to server:  (0)SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/TroubleshootingSMTP ERROR: Failed to connect to server:  (0)SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/TroubleshootingSMTP ERROR: Failed to connect to server:  (0)SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/TroubleshootingSMTP ERROR: Failed to connect to server:  (0)SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/TroubleshootingSMTP ERROR: Failed to connect to server:  (0)SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/TroubleshootingSMTP ERROR: Failed to connect to server:  (0)SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/TroubleshootingCLIENT -> SERVER: EHLO 192.168.1.48
+SMTP Error: Could not authenticate.CLIENT -> SERVER: QUIT
+SMTP Error: Could not authenticate.CLIENT -> SERVER: EHLO 192.168.1.48
+SMTP Error: Could not authenticate.CLIENT -> SERVER: QUIT
+SMTP Error: Could not authenticate.CLIENT -> SERVER: EHLO 192.168.1.48
+SMTP Error: Could not authenticate.CLIENT -> SERVER: QUIT
+SMTP Error: Could not authenticate.CLIENT -> SERVER: EHLO 192.168.1.48
+SMTP Error: Could not authenticate.CLIENT -> SERVER: QUIT
+SMTP Error: Could not authenticate.CLIENT -> SERVER: EHLO 192.168.1.48
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: aW5mb0BkZWVtc3lzaW5jLmNvbQ==
+CLIENT -> SERVER: ZGVlbXN5c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<info@deemsysinc.com>
+CLIENT -> SERVER: RCPT TO:<webteam.deem@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Tue, 3 Apr 2018 07:47:12 +0000
+CLIENT -> SERVER: To: webteam.deem@gmail.com
+CLIENT -> SERVER: From: Dr Samuel <info@deemsysinc.com>
+CLIENT -> SERVER: Reply-To: "[Name]" <webteam.deem@gmail.com>, Dr Samuel <noreply@gmail.com>
+CLIENT -> SERVER: Subject: Dr Samuel Dr Samuel "[your-subject]"
+CLIENT -> SERVER: Message-ID: <efe39ab5f7d4a6190331a177d3224936@192.168.1.48>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+CLIENT -> SERVER: 
+CLIENT -> SERVER: From: [your-name] <[your-email]>
+CLIENT -> SERVER: Subject: [your-subject]
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Message Body:
+CLIENT -> SERVER: [your-message]
+CLIENT -> SERVER: 
+CLIENT -> SERVER: -- 
+CLIENT -> SERVER: This e-mail was sent from a contact form on Dr Samuel Dr Samuel (http://192.168.1.48/dr_samuel)
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO 192.168.1.48
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: aW5mb0BkZWVtc3lzaW5jLmNvbQ==
+CLIENT -> SERVER: ZGVlbXN5c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<info@deemsysinc.com>
+CLIENT -> SERVER: RCPT TO:<webteam.deem@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Tue, 3 Apr 2018 07:51:25 +0000
+CLIENT -> SERVER: To: webteam.deem@gmail.com
+CLIENT -> SERVER: From: Dr Samuel <info@deemsysinc.com>
+CLIENT -> SERVER: Reply-To: "[Name]" <user@gmail.com>, Dr Samuel <noreply@gmail.com>
+CLIENT -> SERVER: Subject: Dr Samuel Dr Samuel "[your-subject]"
+CLIENT -> SERVER: Message-ID: <60d1fd288d7a1f0ae5eb7690de48bd16@192.168.1.48>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+CLIENT -> SERVER: 
+CLIENT -> SERVER: From: [your-name] <[your-email]>
+CLIENT -> SERVER: Subject: [your-subject]
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Message Body:
+CLIENT -> SERVER: [your-message]
+CLIENT -> SERVER: 
+CLIENT -> SERVER: -- 
+CLIENT -> SERVER: This e-mail was sent from a contact form on Dr Samuel Dr Samuel (http://192.168.1.48/dr_samuel)
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO 192.168.1.48
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: aW5mb0BkZWVtc3lzaW5jLmNvbQ==
+CLIENT -> SERVER: ZGVlbXN5c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<info@deemsysinc.com>
+CLIENT -> SERVER: RCPT TO:<webteam.deem@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Tue, 3 Apr 2018 07:55:18 +0000
+CLIENT -> SERVER: To: webteam.deem@gmail.com
+CLIENT -> SERVER: From: Dr Samuel <info@deemsysinc.com>
+CLIENT -> SERVER: Reply-To: "[Name]" <user@gmail.com>, Dr Samuel <noreply@gmail.com>
+CLIENT -> SERVER: Subject: Dr Samuel Dr Samuel "[your-subject]"
+CLIENT -> SERVER: Message-ID: <e05ba55fae7f9bb221bd53ea58fd7673@192.168.1.48>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+CLIENT -> SERVER: 
+CLIENT -> SERVER: From: [your-name] <[your-email]>
+CLIENT -> SERVER: Subject: [your-subject]
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Message Body:
+CLIENT -> SERVER: [your-message]
+CLIENT -> SERVER: 
+CLIENT -> SERVER: -- 
+CLIENT -> SERVER: This e-mail was sent from a contact form on Dr Samuel Dr Samuel (http://192.168.1.48/dr_samuel)
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO 192.168.1.48
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: aW5mb0BkZWVtc3lzaW5jLmNvbQ==
+CLIENT -> SERVER: ZGVlbXN5c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<info@deemsysinc.com>
+CLIENT -> SERVER: RCPT TO:<webteam.deem@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Tue, 3 Apr 2018 08:07:45 +0000
+CLIENT -> SERVER: To: webteam.deem@gmail.com
+CLIENT -> SERVER: From: Dr Samuel <info@deemsysinc.com>
+CLIENT -> SERVER: Reply-To: sample3 <user@gmail.com>, Dr Samuel <noreply@gmail.com>
+CLIENT -> SERVER: Subject: Dr Samuel Dr Samuel "[your-subject]"
+CLIENT -> SERVER: Message-ID: <98fda08065e78d88afcf899b2f0b5185@192.168.1.48>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+CLIENT -> SERVER: 
+CLIENT -> SERVER: From: [your-name] <[your-email]>
+CLIENT -> SERVER: Subject: [your-subject]
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Message Body:
+CLIENT -> SERVER: [your-message]
+CLIENT -> SERVER: 
+CLIENT -> SERVER: -- 
+CLIENT -> SERVER: This e-mail was sent from a contact form on Dr Samuel Dr Samuel (http://192.168.1.48/dr_samuel)
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO 192.168.1.48
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: aW5mb0BkZWVtc3lzaW5jLmNvbQ==
+CLIENT -> SERVER: ZGVlbXN5c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<info@deemsysinc.com>
+CLIENT -> SERVER: RCPT TO:<webteam.deem@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Tue, 3 Apr 2018 10:43:52 +0000
+CLIENT -> SERVER: To: webteam.deem@gmail.com
+CLIENT -> SERVER: From: Dr Samuel <info@deemsysinc.com>
+CLIENT -> SERVER: Reply-To: "[Full Name]" <sdf@gamil.com>, Dr Samuel <noreply@gmail.com>
+CLIENT -> SERVER: Subject: "Clinic Website Theme Contact Details"
+CLIENT -> SERVER: Message-ID: <7cef1a00b72ccd8e724504d81b03aaa7@192.168.1.48>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Name: dsfsf
+CLIENT -> SERVER: Email: sdf@gamil.com
+CLIENT -> SERVER: Phone: 1234567890
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Message:
+CLIENT -> SERVER: [Medical-illness]
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --
+CLIENT -> SERVER: This email has been sent by Deemsys Inc Clinic Theme.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO 192.168.1.48
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: aW5mb0BkZWVtc3lzaW5jLmNvbQ==
+CLIENT -> SERVER: ZGVlbXN5c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<info@deemsysinc.com>
+CLIENT -> SERVER: RCPT TO:<webteam.deem@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Tue, 3 Apr 2018 10:44:38 +0000
+CLIENT -> SERVER: To: webteam.deem@gmail.com
+CLIENT -> SERVER: From: Dr Samuel <info@deemsysinc.com>
+CLIENT -> SERVER: Reply-To: "[Full Name]" <sureshr@deemsysinc.com>, Dr Samuel <noreply@gmail.com>
+CLIENT -> SERVER: Subject: "Clinic Website Theme Contact Details"
+CLIENT -> SERVER: Message-ID: <bbb7bdbfbdff82e68a4329c3b7ba0e7a@192.168.1.48>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Name: sadsad
+CLIENT -> SERVER: Email: sureshr@deemsysinc.com
+CLIENT -> SERVER: Phone: 9578258693
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Message:
+CLIENT -> SERVER: [Medical-illness]
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --
+CLIENT -> SERVER: This email has been sent by Deemsys Inc Clinic Theme.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO 192.168.1.48
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: aW5mb0BkZWVtc3lzaW5jLmNvbQ==
+CLIENT -> SERVER: ZGVlbXN5c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<info@deemsysinc.com>
+CLIENT -> SERVER: RCPT TO:<columbushealthchiro@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Tue, 3 Apr 2018 10:46:05 +0000
+CLIENT -> SERVER: To: columbushealthchiro@gmail.com
+CLIENT -> SERVER: From: Dr Samuel <info@deemsysinc.com>
+CLIENT -> SERVER: Reply-To: columbushealthchiro@gmail.com, Dr Samuel <noreply@gmail.com>
+CLIENT -> SERVER: Subject: =?UTF-8?B?UGF0aWVudCBTdXJ2ZXkgRm9ybSBTdWJtaXNzaW9u?=
+CLIENT -> SERVER: Message-ID: <4366cf9b8639065c6ca4e291de4f79bd@192.168.1.48>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+CLIENT -> SERVER: 
+CLIENT -> SERVER: <table cellspacing="0"  style="font-size:16px;line-height:135%;border-bottom:1px solid #cccccc;"><tbody>
+CLIENT -> SERVER: <tr style="background-color:#ffffff;"><td style="text-align:left;color:#555555;padding:7px 9px;vertical-align:top;border-top:1px solid #cccccc;">1)	How quickly were you able to be scheduled for your appointment when you called?</td><td style="text-align:left;color:#555555;padding:7px 9px;vertical-align:top;border-top:1px solid #cccccc;">Sooner than expected</td></tr>
+CLIENT -> SERVER: <tr style="background-color:#ffffff;"><td style="text-align:left;color:#555555;padding:7px 9px;vertical-align:top;border-top:1px solid #cccccc;">2)	How would you rate the cleanliness of our facility?</td><td style="text-align:left;color:#555555;padding:7px 9px;vertical-align:top;border-top:1px solid #cccccc;">Average for a doctor's office</td></tr>
+CLIENT -> SERVER: <tr style="background-color:#ffffff;"><td style="text-align:left;color:#555555;padding:7px 9px;vertical-align:top;border-top:1px solid #cccccc;">3)	When you arrived for your appointment, how would you rate the time spent waiting to be seen by the doctor?</td><td style="text-align:left;color:#555555;padding:7px 9px;vertical-align:top;border-top:1px solid #cccccc;">Good</td></tr>
+CLIENT -> SERVER: <tr style="background-color:#ffffff;"><td style="text-align:left;color:#555555;padding:7px 9px;vertical-align:top;border-top:1px solid #cccccc;">4)	How would rate our office staff?</td><td style="text-align:left;color:#555555;padding:7px 9px;vertical-align:top;border-top:1px solid #cccccc;">Kind enough</td></tr>
+CLIENT -> SERVER: <tr style="background-color:#ffffff;"><td style="text-align:left;color:#555555;padding:7px 9px;vertical-align:top;border-top:1px solid #cccccc;">5)	How would you rate our doctors?</td><td style="text-align:left;color:#555555;padding:7px 9px;vertical-align:top;border-top:1px solid #cccccc;">Fails to listen and address my concerns</td></tr>
+CLIENT -> SERVER: <tr style="background-color:#ffffff;"><td style="text-align:left;color:#555555;padding:7px 9px;vertical-align:top;border-top:1px solid #cccccc;">6)	How much time does your doctor spend with you during your appointment?</td><td style="text-align:left;color:#555555;padding:7px 9px;vertical-align:top;border-top:1px solid #cccccc;">Perfect</td></tr>
+CLIENT -> SERVER: <tr style="background-color:#ffffff;"><td style="text-align:left;color:#555555;padding:7px 9px;vertical-align:top;border-top:1px solid #cccccc;">7)	How convenient are our office hours?</td><td style="text-align:left;color:#555555;padding:7px 9px;vertical-align:top;border-top:1px solid #cccccc;">Average</td></tr>
+CLIENT -> SERVER: <tr style="background-color:#ffffff;"><td style="text-align:left;color:#555555;padding:7px 9px;vertical-align:top;border-top:1px solid #cccccc;">8)	Overall, how would you rate the quality of care that you receive at our office?</td><td style="text-align:left;color:#555555;padding:7px 9px;vertical-align:top;border-top:1px solid #cccccc;">Average</td></tr>
+CLIENT -> SERVER: <tr style="background-color:#ffffff;"><td style="text-align:left;color:#555555;padding:7px 9px;vertical-align:top;border-top:1px solid #cccccc;">9)	How likely are you to refer a friend to Complete Healthcare for Women?</td><td style="text-align:left;color:#555555;padding:7px 9px;vertical-align:top;border-top:1px solid #cccccc;">Maybe</td></tr>
+CLIENT -> SERVER: <tr style="background-color:#ffffff;"><td style="text-align:left;color:#555555;padding:7px 9px;vertical-align:top;border-top:1px solid #cccccc;">10)	Please take a moment to commend any member of our staff that provided you with excellent care, respect, professionalism and integrity.</td><td style="text-align:left;color:#555555;padding:7px 9px;vertical-align:top;border-top:1px solid #cccccc;">sadasd</td></tr>
+CLIENT -> SERVER: <tr style="background-color:#ffffff;"><td style="text-align:left;color:#555555;padding:7px 9px;vertical-align:top;border-top:1px solid #cccccc;">11)	Please provide any suggestions or feedback that may help us improve our quality of care.</td><td style="text-align:left;color:#555555;padding:7px 9px;vertical-align:top;border-top:1px solid #cccccc;">asdas</td></tr>
+CLIENT -> SERVER: <tr style="background-color:#ffffff;"><td style="text-align:left;color:#555555;padding:7px 9px;vertical-align:top;border-top:1px solid #cccccc;">12) Date of Last Visit:</td><td style="text-align:left;color:#555555;padding:7px 9px;vertical-align:top;border-top:1px solid #cccccc;">12/02/1991</td></tr>
+CLIENT -> SERVER: <tr style="background-color:#ffffff;"><td style="text-align:left;color:#555555;padding:7px 9px;vertical-align:top;border-top:1px solid #cccccc;">Name </td><td style="text-align:left;color:#555555;padding:7px 9px;vertical-align:top;border-top:1px solid #cccccc;">asdasd</td></tr>
+CLIENT -> SERVER: <tr style="background-color:#ffffff;"><td style="text-align:left;color:#555555;padding:7px 9px;vertical-align:top;border-top:1px solid #cccccc;">Email</td><td style="text-align:left;color:#555555;padding:7px 9px;vertical-align:top;border-top:1px solid #cccccc;">sureshr@deemsysinc.com</td></tr>
+CLIENT -> SERVER: <tr style="background-color:#ffffff;"><td style="text-align:left;color:#555555;padding:7px 9px;vertical-align:top;border-top:1px solid #cccccc;">TelePhone</td><td style="text-align:left;color:#555555;padding:7px 9px;vertical-align:top;border-top:1px solid #cccccc;">8768767867</td></tr>
+CLIENT -> SERVER: </tbody></table>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO 192.168.1.48
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: aW5mb0BkZWVtc3lzaW5jLmNvbQ==
+CLIENT -> SERVER: ZGVlbXN5c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<info@deemsysinc.com>
+CLIENT -> SERVER: RCPT TO:<columbushealthchiro@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Wed, 4 Apr 2018 04:28:58 +0000
+CLIENT -> SERVER: To: columbushealthchiro@gmail.com
+CLIENT -> SERVER: From: Dr Samuel <info@deemsysinc.com>
+CLIENT -> SERVER: Reply-To: Dr Samuel <noreply@gmail.com>
+CLIENT -> SERVER: Subject: [Dr Samuel Dr Samuel] Your site has updated to WordPress 4.9.5
+CLIENT -> SERVER: Message-ID: <806a47ce40f352aa3e72beb45bb1ed68@192.168.1.48>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Howdy! Your site at http://192.168.1.48/dr_samuel has been updated automatically to WordPress 4.9.5.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: No further action is needed on your part. For more on version 4.9.5, see the About WordPress screen:
+CLIENT -> SERVER: http://192.168.1.48/dr_samuel/wp-admin/about.php
+CLIENT -> SERVER: 
+CLIENT -> SERVER: If you experience any issues or need support, the volunteers in the WordPress.org support forums may be able to help.
+CLIENT -> SERVER: https://wordpress.org/support/
+CLIENT -> SERVER: 
+CLIENT -> SERVER: You also have some plugins or themes with updates available. Update them now:
+CLIENT -> SERVER: http://192.168.1.48/dr_samuel/wp-admin/
+CLIENT -> SERVER: 
+CLIENT -> SERVER: The WordPress Team
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO 192.168.1.48
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: aW5mb0BkZWVtc3lzaW5jLmNvbQ==
+CLIENT -> SERVER: ZGVlbXN5c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<info@deemsysinc.com>
+CLIENT -> SERVER: RCPT TO:<webteam.deem@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Wed, 4 Apr 2018 07:16:52 +0000
+CLIENT -> SERVER: To: webteam.deem@gmail.com
+CLIENT -> SERVER: From: Dr Samuel <info@deemsysinc.com>
+CLIENT -> SERVER: Reply-To: "[Full Name]" <sample@gmail.com>, Dr Samuel <noreply@gmail.com>
+CLIENT -> SERVER: Subject: "Clinic Website Theme Contact Details"
+CLIENT -> SERVER: Message-ID: <b99e35ea8df27f565bcecec77ffcf89b@192.168.1.48>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Name: Sample Test
+CLIENT -> SERVER: Email: sample@gmail.com
+CLIENT -> SERVER: Phone: 8765432678
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Message:
+CLIENT -> SERVER: [Medical-illness]
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --
+CLIENT -> SERVER: This email has been sent by Deemsys Inc Clinic Theme.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO 192.168.1.48
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: aW5mb0BkZWVtc3lzaW5jLmNvbQ==
+CLIENT -> SERVER: ZGVlbXN5c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<info@deemsysinc.com>
+CLIENT -> SERVER: RCPT TO:<columbushealthchiro@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Wed, 4 Apr 2018 07:50:01 +0000
+CLIENT -> SERVER: To: columbushealthchiro@gmail.com
+CLIENT -> SERVER: From: Dr Samuel <info@deemsysinc.com>
+CLIENT -> SERVER: Reply-To: columbushealthchiro@gmail.com, Dr Samuel <noreply@gmail.com>
+CLIENT -> SERVER: Subject: Dr Samuel Dr Samuel "[your-subject]"
+CLIENT -> SERVER: Message-ID: <6a6ed84210e985f198f5e553547179ef@192.168.1.48>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+CLIENT -> SERVER: 
+CLIENT -> SERVER: From: [your-name] <[your-email]>
+CLIENT -> SERVER: Subject: [your-subject]
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Message Body:
+CLIENT -> SERVER: [your-message]
+CLIENT -> SERVER: 
+CLIENT -> SERVER: -- 
+CLIENT -> SERVER: This e-mail was sent from a contact form on Dr Samuel Dr Samuel (http://192.168.1.48/dr_samuel)
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO 192.168.1.48
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: aW5mb0BkZWVtc3lzaW5jLmNvbQ==
+CLIENT -> SERVER: ZGVlbXN5c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<info@deemsysinc.com>
+CLIENT -> SERVER: RCPT TO:<columbushealthchiro@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Wed, 4 Apr 2018 07:57:36 +0000
+CLIENT -> SERVER: To: columbushealthchiro@gmail.com
+CLIENT -> SERVER: From: Dr Samuel <info@deemsysinc.com>
+CLIENT -> SERVER: Reply-To: columbushealthchiro@gmail.com, Dr Samuel <noreply@gmail.com>
+CLIENT -> SERVER: Subject: Dr Samuel Dr Samuel "[your-subject]"
+CLIENT -> SERVER: Message-ID: <a2fddc829d9d68c710c059e8dc013aea@192.168.1.48>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+CLIENT -> SERVER: 
+CLIENT -> SERVER: From: [your-name] <[your-email]>
+CLIENT -> SERVER: Subject: [your-subject]
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Message Body:
+CLIENT -> SERVER: [your-message]
+CLIENT -> SERVER: 
+CLIENT -> SERVER: -- 
+CLIENT -> SERVER: This e-mail was sent from a contact form on Dr Samuel Dr Samuel (http://192.168.1.48/dr_samuel)
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO 192.168.1.48
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: aW5mb0BkZWVtc3lzaW5jLmNvbQ==
+CLIENT -> SERVER: ZGVlbXN5c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<info@deemsysinc.com>
+CLIENT -> SERVER: RCPT TO:<columbushealthchiro@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Wed, 4 Apr 2018 08:04:04 +0000
+CLIENT -> SERVER: To: columbushealthchiro@gmail.com
+CLIENT -> SERVER: From: Dr Samuel <info@deemsysinc.com>
+CLIENT -> SERVER: Reply-To: columbushealthchiro@gmail.com, Dr Samuel <noreply@gmail.com>
+CLIENT -> SERVER: Subject: Dr Samuel Dr Samuel "[your-subject]"
+CLIENT -> SERVER: Message-ID: <e70d4fcadd70c4dab702b9cad463d63b@192.168.1.48>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+CLIENT -> SERVER: 
+CLIENT -> SERVER: From: [your-name] <[your-email]>
+CLIENT -> SERVER: Subject: [your-subject]
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Message Body:
+CLIENT -> SERVER: [your-message]
+CLIENT -> SERVER: 
+CLIENT -> SERVER: -- 
+CLIENT -> SERVER: This e-mail was sent from a contact form on Dr Samuel Dr Samuel (http://192.168.1.48/dr_samuel)
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO 192.168.1.48
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: aW5mb0BkZWVtc3lzaW5jLmNvbQ==
+CLIENT -> SERVER: ZGVlbXN5c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<info@deemsysinc.com>
+CLIENT -> SERVER: RCPT TO:<columbushealthchiro@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Wed, 4 Apr 2018 08:19:57 +0000
+CLIENT -> SERVER: To: columbushealthchiro@gmail.com
+CLIENT -> SERVER: From: Dr Samuel <info@deemsysinc.com>
+CLIENT -> SERVER: Reply-To: columbushealthchiro@gmail.com, Dr Samuel <noreply@gmail.com>
+CLIENT -> SERVER: Subject: Dr Samuel Dr Samuel "[your-subject]"
+CLIENT -> SERVER: Message-ID: <ede6ac50282f57b06eb1731c05072be9@192.168.1.48>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+CLIENT -> SERVER: 
+CLIENT -> SERVER: From: [your-name] <[your-email]>
+CLIENT -> SERVER: Subject: [your-subject]
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Message Body:
+CLIENT -> SERVER: [your-message]
+CLIENT -> SERVER: 
+CLIENT -> SERVER: -- 
+CLIENT -> SERVER: This e-mail was sent from a contact form on Dr Samuel Dr Samuel (http://192.168.1.48/dr_samuel)
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO 192.168.1.48
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: aW5mb0BkZWVtc3lzaW5jLmNvbQ==
+CLIENT -> SERVER: ZGVlbXN5c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<info@deemsysinc.com>
+CLIENT -> SERVER: RCPT TO:<columbushealthchiro@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Wed, 4 Apr 2018 08:26:56 +0000
+CLIENT -> SERVER: To: columbushealthchiro@gmail.com
+CLIENT -> SERVER: From: Dr Samuel <info@deemsysinc.com>
+CLIENT -> SERVER: Reply-To: columbushealthchiro@gmail.com, Dr Samuel <noreply@gmail.com>
+CLIENT -> SERVER: Subject: Dr Samuel Dr Samuel "[your-subject]"
+CLIENT -> SERVER: Message-ID: <727ac5d26b056147bdf37f32afa58ff1@192.168.1.48>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+CLIENT -> SERVER: 
+CLIENT -> SERVER: From: [your-name] <[your-email]>
+CLIENT -> SERVER: Subject: [your-subject]
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Message Body:
+CLIENT -> SERVER: [your-message]
+CLIENT -> SERVER: 
+CLIENT -> SERVER: -- 
+CLIENT -> SERVER: This e-mail was sent from a contact form on Dr Samuel Dr Samuel (http://192.168.1.48/dr_samuel)
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO 192.168.1.48
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: aW5mb0BkZWVtc3lzaW5jLmNvbQ==
+CLIENT -> SERVER: ZGVlbXN5c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<info@deemsysinc.com>
+CLIENT -> SERVER: RCPT TO:<webteam.deem@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Wed, 4 Apr 2018 08:29:26 +0000
+CLIENT -> SERVER: To: webteam.deem@gmail.com
+CLIENT -> SERVER: From: Dr Samuel <info@deemsysinc.com>
+CLIENT -> SERVER: Reply-To: Sample <sample@gmail.com>, Dr Samuel <noreply@gmail.com>
+CLIENT -> SERVER: Subject: Dr Samuel Dr Samuel "[your-subject]"
+CLIENT -> SERVER: Message-ID: <c69bb048e63df0ceca0bd6984b7d5dd0@192.168.1.48>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+CLIENT -> SERVER: 
+CLIENT -> SERVER: From: [your-name] <[your-email]>
+CLIENT -> SERVER: Subject: [your-subject]
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Message Body:
+CLIENT -> SERVER: [your-message]
+CLIENT -> SERVER: 
+CLIENT -> SERVER: -- 
+CLIENT -> SERVER: This e-mail was sent from a contact form on Dr Samuel Dr Samuel (http://192.168.1.48/dr_samuel)
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO 192.168.1.48
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: aW5mb0BkZWVtc3lzaW5jLmNvbQ==
+CLIENT -> SERVER: ZGVlbXN5c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<info@deemsysinc.com>
+CLIENT -> SERVER: RCPT TO:<columbushealthchiro@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Wed, 4 Apr 2018 08:40:27 +0000
+CLIENT -> SERVER: To: columbushealthchiro@gmail.com
+CLIENT -> SERVER: From: Dr Samuel <info@deemsysinc.com>
+CLIENT -> SERVER: Reply-To: columbushealthchiro@gmail.com, Dr Samuel <noreply@gmail.com>
+CLIENT -> SERVER: Subject: Dr Samuel Dr Samuel "[your-subject]"
+CLIENT -> SERVER: Message-ID: <9cdb25f1783db36f8a2b5a1bbe9c6686@192.168.1.48>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+CLIENT -> SERVER: 
+CLIENT -> SERVER: From: [your-name] <[your-email]>
+CLIENT -> SERVER: Subject: [your-subject]
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Message Body:
+CLIENT -> SERVER: [your-message]
+CLIENT -> SERVER: 
+CLIENT -> SERVER: -- 
+CLIENT -> SERVER: This e-mail was sent from a contact form on Dr Samuel Dr Samuel (http://192.168.1.48/dr_samuel)
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO 192.168.1.48
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: aW5mb0BkZWVtc3lzaW5jLmNvbQ==
+CLIENT -> SERVER: ZGVlbXN5c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<info@deemsysinc.com>
+CLIENT -> SERVER: RCPT TO:<columbushealthchiro@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Wed, 4 Apr 2018 09:56:09 +0000
+CLIENT -> SERVER: To: columbushealthchiro@gmail.com
+CLIENT -> SERVER: From: Dr Samuel <info@deemsysinc.com>
+CLIENT -> SERVER: Reply-To: columbushealthchiro@gmail.com, Dr Samuel <noreply@gmail.com>
+CLIENT -> SERVER: Subject: Dr Samuel Dr Samuel "[your-subject]"
+CLIENT -> SERVER: Message-ID: <46e2823ac755771f6cb6da09d4df3b3a@192.168.1.48>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+CLIENT -> SERVER: 
+CLIENT -> SERVER: From: [your-name] <[your-email]>
+CLIENT -> SERVER: Subject: [your-subject]
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Message Body:
+CLIENT -> SERVER: [your-message]
+CLIENT -> SERVER: 
+CLIENT -> SERVER: -- 
+CLIENT -> SERVER: This e-mail was sent from a contact form on Dr Samuel Dr Samuel (http://192.168.1.48/dr_samuel)
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO 192.168.1.48
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: aW5mb0BkZWVtc3lzaW5jLmNvbQ==
+CLIENT -> SERVER: ZGVlbXN5c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<info@deemsysinc.com>
+CLIENT -> SERVER: RCPT TO:<columbushealthchiro@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Wed, 4 Apr 2018 10:59:01 +0000
+CLIENT -> SERVER: To: columbushealthchiro@gmail.com
+CLIENT -> SERVER: From: Dr Samuel <info@deemsysinc.com>
+CLIENT -> SERVER: Reply-To: columbushealthchiro@gmail.com, Dr Samuel <noreply@gmail.com>
+CLIENT -> SERVER: Subject: Dr Samuel Dr Samuel "[your-subject]"
+CLIENT -> SERVER: Message-ID: <6a8433591289694cda47ab600ef21889@192.168.1.48>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+CLIENT -> SERVER: 
+CLIENT -> SERVER: From: [your-name] <[your-email]>
+CLIENT -> SERVER: Subject: [your-subject]
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Message Body:
+CLIENT -> SERVER: [your-message]
+CLIENT -> SERVER: 
+CLIENT -> SERVER: -- 
+CLIENT -> SERVER: This e-mail was sent from a contact form on Dr Samuel Dr Samuel (http://192.168.1.48/dr_samuel)
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO 192.168.1.48
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: aW5mb0BkZWVtc3lzaW5jLmNvbQ==
+CLIENT -> SERVER: ZGVlbXN5c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<info@deemsysinc.com>
+CLIENT -> SERVER: RCPT TO:<columbushealthchiro@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Wed, 4 Apr 2018 11:00:29 +0000
+CLIENT -> SERVER: To: columbushealthchiro@gmail.com
+CLIENT -> SERVER: From: Dr Samuel <info@deemsysinc.com>
+CLIENT -> SERVER: Reply-To: columbushealthchiro@gmail.com, Dr Samuel <noreply@gmail.com>
+CLIENT -> SERVER: Subject: Dr Samuel Dr Samuel "[your-subject]"
+CLIENT -> SERVER: Message-ID: <74a4613499a23502a9633aac8576ee67@192.168.1.48>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+CLIENT -> SERVER: 
+CLIENT -> SERVER: From: [your-name] <[your-email]>
+CLIENT -> SERVER: Subject: [your-subject]
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Message Body:
+CLIENT -> SERVER: [your-message]
+CLIENT -> SERVER: 
+CLIENT -> SERVER: -- 
+CLIENT -> SERVER: This e-mail was sent from a contact form on Dr Samuel Dr Samuel (http://192.168.1.48/dr_samuel)
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO 192.168.1.48
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: aW5mb0BkZWVtc3lzaW5jLmNvbQ==
+CLIENT -> SERVER: ZGVlbXN5c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<info@deemsysinc.com>
+CLIENT -> SERVER: RCPT TO:<columbushealthchiro@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Wed, 4 Apr 2018 11:08:50 +0000
+CLIENT -> SERVER: To: columbushealthchiro@gmail.com
+CLIENT -> SERVER: From: Dr Samuel <info@deemsysinc.com>
+CLIENT -> SERVER: Reply-To: columbushealthchiro@gmail.com, Dr Samuel <noreply@gmail.com>
+CLIENT -> SERVER: Subject: Dr Samuel Dr Samuel "[your-subject]"
+CLIENT -> SERVER: Message-ID: <85b1de00499584a3bdcb93902531f614@192.168.1.48>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+CLIENT -> SERVER: 
+CLIENT -> SERVER: From: [your-name] <[your-email]>
+CLIENT -> SERVER: Subject: [your-subject]
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Message Body:
+CLIENT -> SERVER: [your-message]
+CLIENT -> SERVER: 
+CLIENT -> SERVER: -- 
+CLIENT -> SERVER: This e-mail was sent from a contact form on Dr Samuel Dr Samuel (http://192.168.1.48/dr_samuel)
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT

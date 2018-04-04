@@ -44,7 +44,7 @@ $better_health_designlayout = better_health_get_option('better_health_sidebar_la
                 <div class="col-sm-<?php if ($better_health_designlayout == 'no-sidebar') {
                     echo "12";
                 } else {
-                    echo "9";
+                    echo "12";
                 } ?> col-md-<?php if ($better_health_designlayout == 'no-sidebar') {
                     echo "12";
                 } else {
@@ -75,7 +75,7 @@ $better_health_designlayout = better_health_get_option('better_health_sidebar_la
 
                 </div><!--.left-block -->
                 <?php if ($better_health_designlayout != 'no-sidebar') { ?>
-                    <div class="col-xs-12 col-sm-3 col-md-3">
+                    <div class="col-xs-12 col-sm-12 col-md-3">
                         <?php 
                          // Function to display search form
                           get_sidebar(); ?>

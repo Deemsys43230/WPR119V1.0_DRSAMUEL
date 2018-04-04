@@ -39,7 +39,7 @@ $appointment_short_code = better_health_get_option('better_health_appointment_sh
         $header_image = get_header_image();
      
         if( $header_image ){
-            $header_style = 'style="background-image: url('.esc_url( $header_image ).');background-size: cover;background-position: center; height:200px;background-repeat: no-repeat;"';                 
+            $header_style = 'style="background-image: url('.esc_url( $header_image ).');background-position:center;background-repeat:no-repeat;height:220px;"';                 
 
         } else{
 

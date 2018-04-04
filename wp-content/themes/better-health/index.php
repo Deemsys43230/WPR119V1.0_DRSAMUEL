@@ -46,7 +46,7 @@ get_header();
                 <div class="col-sm-<?php if ($better_health_designlayout == 'no-sidebar') {
                     echo "12";
                 } else {
-                    echo "9";
+                    echo "12";
                 } ?> col-md-<?php if ($better_health_designlayout == 'no-sidebar') {
                     echo "12";
                 } else {

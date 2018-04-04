@@ -2,6 +2,12 @@
 /**
  * @package WPSEO\Main
  */
+/* Removing Yoast Structured data */
+function bybe_remove_yoast_json($data){
+    $data = array();
+    return $data;
+  }
+add_filter('wpseo_json_ld_output', 'bybe_remove_yoast_json', 10, 1);
 
 if ( ! function_exists( 'add_filter' ) ) {
 	header( 'Status: 403 Forbidden' );
