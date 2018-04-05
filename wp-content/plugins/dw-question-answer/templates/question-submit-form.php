@@ -18,15 +18,9 @@
 		<p><?php dwqa_init_tinymce_editor( array( 'content' => $content, 'textarea_name' => 'question-content', 'id' => 'question-content' ) ) ?></p>
 		<?php global $dwqa_general_settings; ?>
 		<?php if ( isset( $dwqa_general_settings['enable-private-question'] ) && $dwqa_general_settings['enable-private-question'] ) : ?>
-		<p>
-			<label for="question-status"><?php _e( 'Status', 'dwqa' ) ?></label>
-			<select class="dwqa-select" id="question-status" name="question-status">
-				<optgroup label="<?php _e( 'Who can see this?', 'dwqa' ) ?>">
-					<option value="publish"><?php _e( 'Public', 'dwqa' ) ?></option>
-					<option value="private"><?php _e( 'Only Me &amp; Admin', 'dwqa' ) ?></option>
-				</optgroup>
-			</select>
-		</p>
+            <p>
+                <input type="hidden" class="" name="question-status" value="publish">
+            </p>
 		<?php endif; ?>
 		<p>
 			<label for="question-category"><?php _e( 'Category', 'dwqa' ) ?></label>
