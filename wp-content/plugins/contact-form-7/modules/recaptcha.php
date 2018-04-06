@@ -297,7 +297,34 @@ var recaptchaCallback = function() {
 		}
 	}
 };
+var HEADER_HEIGHT = 0; // Height of header/menu fixed if exists
+var isIOS = /iPhone|iPad|iPod/i.test(navigator.userAgent);
+var grecaptchaPosition;
 
+var isScrolledIntoView = function (elem) {
+  var elemRect = elem.getBoundingClientRect();
+  var isVisible = (elemRect.top - HEADER_HEIGHT >= 0 && elemRect.bottom <= window.innerHeight);
+  
+  return isVisible;
+};
+
+if (isIOS) {
+  var recaptchaElements = document.querySelectorAll('.g-recaptcha');
+
+  window.addEventListener('scroll', function () {
+    Array.prototype.forEach.call(recaptchaElements, function (element) {
+      if (isScrolledIntoView(element)) {
+        grecaptchaPosition = document.documentElement.scrollTop || document.body.scrollTop;
+      }
+    });
+  }, false);
+}
+
+var onReCaptchaSuccess = function () {
+  if (isIOS && grecaptchaPosition !== undefined) {
+    window.scrollTo(0, grecaptchaPosition);
+  }
+};
 document.addEventListener( 'wpcf7submit', function( event ) {
 	switch ( event.detail.status ) {
 		case 'spam':
@@ -342,6 +369,7 @@ function wpcf7_recaptcha_form_tag_handler( $tag ) {
 		'badge', '(bottomright|bottomleft|inline)', true );
 	$atts['data-tabindex'] = $tag->get_option( 'tabindex', 'signed_int', true );
 	$atts['data-callback'] = $tag->get_option( 'callback', '', true );
+	$atts['data-callback'] = "onReCaptchaSuccess";
 	$atts['data-expired-callback'] =
 		$tag->get_option( 'expired_callback', '', true );
 
