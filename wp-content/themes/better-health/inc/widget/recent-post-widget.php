@@ -108,8 +108,10 @@ if (!class_exists('Better_Health_Recent_Post_Widget')) {
                                                     </a>
                                                 </div>
                                                 <div class="fornt-blog-title-cat">
-                                                    <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                                                    <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3><br>
+                                                    <div class="authorName">
                                                     <a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ), get_the_author_meta( 'user_nicename' ) ) ); ?>" class="btn btn-primary btn-sm"><i class="fa fa-user-o"></i><?php the_author(); ?></a>
+                                                </div>
                                                 </div>
                                             
                                             </div>
