@@ -83,6 +83,11 @@ class FrmFieldCaptcha extends FrmFieldType {
 		if ( $captcha_size == 'invisible' && ! $allow_mutiple ) {
 			$html .= ' data-callback="frmAfterRecaptcha"';
 		}
+		else if ($captcha_size != 'invisible')
+        {
+            $html .= ' data-callback="onReCaptchaSuccess"';
+        }
+
 		$html .= '></div>';
 
 		return $html;
@@ -194,3 +199,36 @@ class FrmFieldCaptcha extends FrmFieldType {
 		return wp_remote_post( 'https://www.google.com/recaptcha/api/siteverify', $arg_array );
 	}
 }
+?>
+
+<script type="text/javascript">
+    var onReCaptchaSuccess;
+    window.onload=function() {
+        var HEADER_HEIGHT = 0; // Height of header/menu fixed if exists
+        var isIOS = /iPhone|iPad|iPod/i.test(navigator.userAgent);
+        var grecaptchaPosition;
+        var isScrolledIntoView = function (elem) {
+            var elemRect = elem.getBoundingClientRect();
+            var isVisible = (elemRect.top - HEADER_HEIGHT >= 0 && elemRect.bottom <= window.innerHeight);
+
+            return isVisible;
+        };
+
+        if (isIOS) {
+            var recaptchaElements = document.querySelectorAll('.g-recaptcha');
+            window.addEventListener('scroll', function () {
+                Array.prototype.forEach.call(recaptchaElements, function (element) {
+                    if (isScrolledIntoView(element)) {
+                        grecaptchaPosition = document.documentElement.scrollTop || document.body.scrollTop;
+                    }
+                });
+            }, false);
+        }
+
+        onReCaptchaSuccess = function () {
+            if (isIOS && grecaptchaPosition !== undefined) {
+                window.scrollTo(0, grecaptchaPosition);
+            }
+        };
+    }
+</script>
