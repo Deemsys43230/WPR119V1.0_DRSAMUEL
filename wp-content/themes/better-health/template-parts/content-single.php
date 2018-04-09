@@ -24,15 +24,15 @@ $hide_show_feature_image=better_health_get_option( 'better_health_show_feature_i
       <div class="row">
         <div class="col-md-12">
           <div class="comments comment-archive">
-              <div class="front-blog-date">
+              <!-- <div class="front-blog-date">
                 <a class="btn btn-primary btn-sm">
                   <span class="publish-date"> <?php echo esc_html(get_the_date('d')) ?> </span>
                   <span class="publish-month"><?php echo esc_html( get_the_date('M')) ?></span>
                 </a>
-              </div>
+              </div> -->
           </div>
           <div class="blog-inner-title-meta">
-            <h3 class="text-left"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+            <h1 class="text-left"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
             <div class="section-14-meta">
                 <a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ), get_the_author_meta( 'user_nicename' ) ) ); ?>"><i class="fa fa-calendar-check-o"></i><span><?php echo esc_html( get_the_date('M')) ?></span> , <?php echo esc_html(get_the_date('d')) ?> , <span><?php echo esc_html( get_the_date('Y')) ?></span></a>
                 <a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ), get_the_author_meta( 'user_nicename' ) ) ); ?>"><i class="fa fa-user-o"></i><?php the_author(); ?></a>
