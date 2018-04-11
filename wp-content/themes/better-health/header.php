@@ -97,7 +97,10 @@ $appointment_short_code = better_health_get_option('better_health_appointment_sh
                         ?>
  
                         <li>
-                            <span class="icon-box--description"><a href="<?php echo esc_url('tel:'.$mobile_value) ?>"><i class="fa <?php echo esc_attr($mobile_icon); ?> fa-2x"></i> <?php echo esc_html($mobile_value); ?></a></span>
+                            <?php $mobile_values=esc_url($mobile_value);
+                                  $mobile_value_nodot=ereg_replace('[^0-9]', '', $mobile_values);
+                            ?>
+                            <span class="icon-box--description"><a href="<?php echo esc_url('tel:'.$mobile_value_nodot) ?>"><i class="fa <?php echo esc_attr($mobile_icon); ?> fa-2x"></i> <?php echo esc_html($mobile_value); ?></a></span>
                         </li>
                        <?php } 
                         if (!empty($email_value)) {
