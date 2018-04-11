@@ -89,7 +89,7 @@ $appointment_short_code = better_health_get_option('better_health_appointment_sh
                     <?php if (!empty($address_value)) {
                         ?>
                         <li>
-                            <span class="icon-box--description"><a href="#"><i class="fa <?php echo esc_attr($address_icon); ?> fa-2x"></i> <?php echo esc_html($address_value); ?></a></span>
+                            <span class="icon-box--description"><a><i class="fa <?php echo esc_attr($address_icon); ?> fa-2x"></i> <?php echo esc_html($address_value); ?></a></span>
                         </li>
                         <?php
                       }
