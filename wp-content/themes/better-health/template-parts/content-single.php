@@ -36,6 +36,7 @@ $hide_show_feature_image=better_health_get_option( 'better_health_show_feature_i
             <div class="section-14-meta">
                 <a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ), get_the_author_meta( 'user_nicename' ) ) ); ?>"><i class="fa fa-calendar-check-o"></i><span><?php echo esc_html( get_the_date('M')) ?></span> , <?php echo esc_html(get_the_date('d')) ?> , <span><?php echo esc_html( get_the_date('Y')) ?></span></a>
                 <a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ), get_the_author_meta( 'user_nicename' ) ) ); ?>"><i class="fa fa-user-o"></i><?php the_author(); ?></a>
+                <?php better_health_entry_footer(); ?>
             </div>
           </div>
         </div>
@@ -63,5 +64,4 @@ $hide_show_feature_image=better_health_get_option( 'better_health_show_feature_i
                 </footer><!-- .entry-footer -->
             <?php endif; ?>          
       </div>     
- </div><!-- #post-## -->         
-          
+ </div><!-- #post-## -->  
